@@ -7,7 +7,7 @@ interface AuthContextProps {
 }
 
 const AuthContext: React.FC<AuthContextProps> = ({ children }) => {
-  return <SessionProvider>{children}</SessionProvider>;
+  return <SessionProvider>{children}</SessionProvider>
 };
 
 export default AuthContext;

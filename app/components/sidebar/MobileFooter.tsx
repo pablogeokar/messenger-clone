@@ -23,7 +23,7 @@ const MobileFooter = () => {
         />
       ))}
     </div>
-  );
+  )
 };
 
 export default MobileFooter;
